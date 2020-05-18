@@ -1,5 +1,3 @@
-
-
 /**
  * 自动给ViewBox配置bodyPadding getTemplateDataHandler 函数的创建者
  * @param paddingOptions : {paddingTop : string,paddingBottom : string}  配置 ViewBox 主体padding的配置对象
@@ -12,7 +10,7 @@
  * 当 有 bottom 且 没有设置 bodyPaddingBottom 时，会自动设置 ViewBox 的 bodyPaddingBottom 为 paddingBottom
  *
  */
-export default function createAutoSetBodyPaddingForViewBoxDataHandler({paddingTop,paddingBottom}) {
+export function createAutoSetBodyPaddingForViewBoxDataHandler({paddingTop,paddingBottom}) {
 
 
   /**
