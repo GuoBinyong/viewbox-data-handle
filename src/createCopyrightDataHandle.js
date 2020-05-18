@@ -2,9 +2,9 @@ import Copyright from './Copyright'
 
 
 /**
- * 版权的getTemplateDataHandle 的创建函数
+ * 版权的getTemplateDataHandler 的创建函数
  * @param copyrightOptions : Object   版权的默认配置对象；该配置对象里包含的配置项 均可以在 ByViewBox 的 props 上进行配置；只有当 ByViewBox 没有设置对应的 props 时，才会使用该配置选项的相应的配置项
- * @returns getTemplateDataHandle   返回版权的 getTemplateDataHandle ；
+ * @returns getTemplateDataHandler   返回版权的 getTemplateDataHandler ；
  *
  *
  * copyrightOptions 中可配置的项如下：
@@ -18,9 +18,9 @@ import Copyright from './Copyright'
  *
  * 注意：
  * - ByViewBox 有 与 copyrightOptions中所有可配置的项 相对应的 props ；而且这些 props 支持驼峰式 和 中划线式 两种写法；
- * - 传给createCopyrightDataHandle的 copyrightOptions 配置项是全局的，默认的配置项；只有在没有设置 ByViewBox 相应的 props 时才会生效；即版本的配置优先级如下： ByViewBox 的 props > copyrightOptions，
+ * - 传给createCopyrightDataHandler的 copyrightOptions 配置项是全局的，默认的配置项；只有在没有设置 ByViewBox 相应的 props 时才会生效；即版本的配置优先级如下： ByViewBox 的 props > copyrightOptions，
  */
-export default function createCopyrightDataHandle({showCopyright = false,hideWhenHaveBottom = true,headerHeight = "46px",copyrightHeight = "46px",copyrightDownOffset = "0px",copyrightUpOffset = "0px"}) {
+export default function createCopyrightDataHandler({showCopyright = false,hideWhenHaveBottom = true,headerHeight = "46px",copyrightHeight = "46px",copyrightDownOffset = "0px",copyrightUpOffset = "0px"}) {
 
   let autoDisplayHeader = function (templateData,vbInstance,createElement) {
 
