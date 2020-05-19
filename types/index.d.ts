@@ -1,6 +1,3 @@
-import "es-expand"
-
-
 export * from "./createAutoDisplayHeaderDataHandler";
 export * from "./createAutoSetBodyPaddingForViewBoxDataHandler";
 export * from "./createConfigDataForSlotsOfViewBoxDataHandler";

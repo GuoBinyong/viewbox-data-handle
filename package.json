@@ -39,8 +39,9 @@
     "rollup-plugin-babel": "^4.2.0"
   },
   "dependencies": {
-    "es-expand": "^1.0.13",
     "custom-viewbox": "^1.0.2",
+    "es-expand": "^1.0.13",
+    "vnode-tls": "^1.0.0",
     "vue": "^2.6.11"
   }
 }

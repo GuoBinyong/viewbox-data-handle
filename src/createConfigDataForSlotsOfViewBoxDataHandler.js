@@ -1,4 +1,4 @@
-import {configTemplateDataForVNodes} from '@tools/VNode'
+import {configTemplateDataForVNodes} from "vnode-tls"
 
 
 
@@ -15,7 +15,7 @@ import {configTemplateDataForVNodes} from '@tools/VNode'
  * configDataForSlotsOfViewBox
  * 当 ByViewBox 的 header 和 bottom 都只有一个时，给 ByViewBox 的 header 和 bottom slots 配置 模板数据
  */
-export default function createConfigDataForSlotsOfViewBoxDataHandler({header:headerTempData,bottom:bottomTempData}) {
+export function createConfigDataForSlotsOfViewBoxDataHandler({header:headerTempData,bottom:bottomTempData}) {
 
 
   /**
