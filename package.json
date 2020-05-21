@@ -1,6 +1,6 @@
 {
   "name": "viewbox-data-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "viewbox-data-handler 是 custom-viewbox 的 TemplateDataOrGet 库",
   "main": "dist/viewbox-data-handler.cjs.js",
   "module": "dist/viewbox-data-handler.esm.js",
