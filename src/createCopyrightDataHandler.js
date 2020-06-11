@@ -41,7 +41,7 @@ export function createCopyrightDataHandler({copyright:Copyright,showCopyright = 
 
 
 
-    let {header = [],bottom = [],default:defaultSlot = []} = slots;
+    let {default:defaultSlot = []} = slots;
 
 
     if (finalHideWhenHaveBottom && slots.bottom) {
