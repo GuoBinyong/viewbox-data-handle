@@ -3,9 +3,10 @@
   "version": "1.0.2",
   "description": "viewbox-data-handler 是 custom-viewbox 的 TemplateDataOrGet 库",
   "main": "dist/viewbox-data-handler.cjs.js",
-  "module": "dist/viewbox-data-handler.esm.js",
+  "module": "dist/viewbox-data-handler.es.js",
   "types": "types/index.d.ts",
   "sideEffects": false,
+  "homepage": "https://github.com/GuoBinyong/viewbox-data-handler#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/GuoBinyong/viewbox-data-handler"
@@ -40,11 +41,12 @@
     "@rollup/plugin-node-resolve": "^7.1.3",
     "eslint": "^7.0.0",
     "package-tls": "^1.0.2",
-    "rollup": "^2.7.2"
+    "rollup": "^2.7.2",
+    "rollup-plugin-terser": "^6.1.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.6",
-    "es-expand": "^1.0.16",
+    "es-expand": "^2.0.0",
     "vnode-tls": "^1.0.2"
   },
   "peerDependencies": {
